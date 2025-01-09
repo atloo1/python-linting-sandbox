@@ -1,6 +1,6 @@
 [project]
 name = "python-linting-sandbox"
-version = "0.1.0"
+version = "0.1.1"
 description = "lint anything for a Python project"
 authors = [
     {name = "atloo1",email = "15357562+atloo1@users.noreply.github.com"}
