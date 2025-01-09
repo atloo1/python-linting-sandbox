@@ -7,15 +7,15 @@ authors = [
 ]
 license = "MIT"
 readme = "README.md"
-requires-python = "^3.9"
+requires-python = ">=3.9,<4"
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^1"
-pre-commit = "^4"
-ruff = "^0.9"
+mypy = ">=1,<2"
+pre-commit = ">=4,<5"
+ruff = ">=0.9,<1"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core>=2,<3"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.ruff]
